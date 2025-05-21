@@ -1,0 +1,18 @@
+title: My Jekyll Site
+description: >-
+  A simple Jekyll site.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://valentinbast.github.io/3D_animations_networks" # your GitHub Pages URL
+
+theme: minima
+
+# Optional settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
