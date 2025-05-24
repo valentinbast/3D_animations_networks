@@ -1,0 +1,97 @@
+/* Scientific Style Theme */
+
+body {
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  background: #f8f9fa;
+  color: #212529;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cambria', 'Georgia', serif;
+  color: #003366;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: #1a4d8f;
+  text-decoration: underline;
+}
+a:hover {
+  color: #003366;
+  text-decoration: none;
+}
+
+code, pre {
+  background: #e9ecef;
+  color: #212529;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+pre {
+  padding: 16px;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  background: #fff;
+  margin: 1em 0;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #b4bfc4;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background: #e2eaf3;
+  color: #003366;
+}
+
+blockquote {
+  border-left: 4px solid #003366;
+  background: #e2eaf3;
+  color: #333;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #b4bfc4;
+  margin: 2em 0;
+}
+
+ul, ol {
+  margin: 1em 0 1em 2em;
+}
+
+.container, .content {
+  max-width: 800px;
+  margin: auto;
+  padding: 2em;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 51, 102, 0.05);
+  border-radius: 8px;
+}
+
+/* Optional: Add a subtle header bar */
+header {
+  background: #003366;
+  color: #fff;
+  padding: 1em 2em;
+  text-align: center;
+  font-size: 1.5em;
+  letter-spacing: 0.03em;
+  margin-bottom: 2em;
+  border-radius: 0 0 8px 8px;
+}
